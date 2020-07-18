@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "department": "Accounting",
+    "position": "Bookeeper",
+    "email": "johnd@acme.com"
+  },
+  {
+    "id": 2,
+    "name": "Susan Johnson",
+    "department": "Administration",
+    "position": "Secretery",
+    "email": "susanj@acme.com"
+  },
+  {
+    "id": 3,
+    "name": "Mark Hamilton",
+    "department": "IT",
+    "position": "CTO",
+    "email": "markh@acme.com"
+  },
+  {
+    "id": 4,
+    "name": "Jim Jones",
+    "department": "Finance",
+    "position": "Purchase Agent",
+    "email": "jimj@acme.com"
+  },
+  {
+    "id": 5,
+    "name": "Bob Hill",
+    "department": "Operations",
+    "position": "Manager",
+    "email": "bobh@acme.com"
+  },
+  {
+    "id": 6,
+    "name": "Nancy Tucker",
+    "department": "Accounting",
+    "position": "Head Accountant",
+    "email": "nancyt@acme.com"
+  },
+  {
+    "id": 7,
+    "name": "Henry Miller",
+    "department": "IT",
+    "position": "Web Developer",
+    "email": "henrym@acme.com"
+  },
+  {
+    "id": 8,
+    "name": "Leo Upton",
+    "department": "Administration",
+    "position": "Manager",
+    "email": "leou@acme.com"
+  },
+  {
+    "id": 9,
+    "name": "Frida Parker",
+    "department": "IT",
+    "position": "Network Administrator",
+    "email": "fridap@acme.com"
+  },
+  {
+    "id": 10,
+    "name": "Steven Douglas",
+    "department": "Operations",
+    "position": "Warehouseman",
+    "email": "stevend@acme.com"
+  },
+  {
+    "id": 11,
+    "name": "Ron Reynolds",
+    "department": "Finance",
+    "position": "Purchase Agent",
+    "email": "ronr@acme.com"
+  },
+  {
+    "id": 12,
+    "name": "Michael Peterson",
+    "department": "Operations",
+    "position": "Supervisor",
+    "email": "michaelp@acme.com"
+  },
+  {
+    "id": 13,
+    "name": "Linda Kozlowski",
+    "department": "Administration",
+    "position": "Clerk",
+    "email": "lindak@acme.com"
+  },
+  {
+    "id": 14,
+    "name": "Pete Williams",
+    "department": "Finance",
+    "position": "CFO",
+    "email": "petew@acme.com"
+  },
+  {
+    "id": 15,
+    "name": "Rachel Ray",
+    "department": "Operations",
+    "position": "COO",
+    "email": "rachelr@acme.com"
+  }
+]
