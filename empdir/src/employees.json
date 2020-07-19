@@ -103,5 +103,40 @@
     "department": "Operations",
     "position": "COO",
     "email": "rachelr@acme.com"
+  },
+  {
+    "id": 16,
+    "name": "Marsha Davis",
+    "department": "Engineering",
+    "position": "Electrical Engineer",
+    "email": "marshad@acme.com"
+  },
+  {
+    "id": 17,
+    "name": "Neil Esposito",
+    "department": "Engineering",
+    "position": "Mechanical Engineer",
+    "email": "neile@acme.com"
+  },
+  {
+    "id": 18,
+    "name": "Loren Wilson",
+    "department": "Accounting",
+    "position": "Cost Accountant",
+    "email": "lorenw@acme.com"
+  },
+  {
+    "id": 19,
+    "name": "Ivan Allan",
+    "department": "HR",
+    "position": "Human Resources Manager",
+    "email": "ivana@acme.com"
+  },
+  {
+    "id": 20,
+    "name": "Allison Bartow",
+    "department": "Communications",
+    "position": "PR Officer",
+    "email": "allisonb@acme.com"
   }
 ]

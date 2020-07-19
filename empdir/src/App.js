@@ -1,27 +1,28 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import Employee from "./components/Employee";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import friends from "./friends.json";
+import employees from "./employees.json";
+import FilterButton from "./components/FilterButton";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.employees to the employees json array
   state = {
-    friends
+    employees
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
+  handleFormSubmit = event => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    event.preventDefault();
+    console.log("you clicked me");
   };
-
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  
+  // Map over this.state.employees and render a Employee component for each employee object
   render() {
     return (
       <Wrapper>
         <Title>Employee Directory</Title>
+        
         <table>
         <tr>
             <th>Name</th>
@@ -29,18 +30,19 @@ class App extends Component {
             <th>Position</th>
             <th>Email</th>
           </tr>
-        {this.state.friends.map(friend => (
-          <FriendCard
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            department={friend.department}
-            position={friend.position}
-            email={friend.email}
+        {this.state.employees.map(employee => (
+          <Employee
+            id={employee.id}
+            key={employee.id}
+            name={employee.name}
+            department={employee.department}
+            position={employee.position}
+            email={employee.email}
           />
           
         ))}
         </table>
+        
       </Wrapper>
     );
   }
